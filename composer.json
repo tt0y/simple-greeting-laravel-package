@@ -1,0 +1,27 @@
+{
+    "name": "antonkc/simple_greeting",
+    "description": "Just should say hello to you",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton KC",
+            "email": "tt0y@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Antonkc\\Simple_greeting\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Antonkc\\Simple_greeting\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "illuminate/support": "^6.18"
+    }
+}
